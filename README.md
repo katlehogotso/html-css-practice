@@ -19,6 +19,12 @@ design, and document my progress through consistent hands-on coding.
 *Git & GitHub
 *Visual Studio Code
 
+# projects
+EXERCISE: 01-profile-card - FOCUS: box model properties, html semantics - STATUS: practicing
+
+This will be updated as I complete new exercises
+
+
 # NOTE
 These projects are learning exercises, not necessarily polished
 portfolio pieces. Some may be incomplete or contain mistakes as
