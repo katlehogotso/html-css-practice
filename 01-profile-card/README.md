@@ -3,6 +3,9 @@
 ## Concepts practiced
 *Semantic HTML
 *CSS Box Model properties
+*Working with images
+*Git and Github
+*Running a local development server
 
 ## Challenges
 Describe what I struggled with
