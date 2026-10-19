@@ -1,0 +1,15 @@
+/* Reset box-sizing globally for predictable sizing */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margins and padding from everything */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove list markers globally (Optional) */
+ol, ul {
+  list-style: none;
+}
