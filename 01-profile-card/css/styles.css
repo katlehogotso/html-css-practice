@@ -13,3 +13,13 @@
 ol, ul {
   list-style: none;
 }
+
+.profile-stats {
+    font-weight: 700;
+}
+
+.age, 
+.city, 
+.profile-stats-label {
+    font-weight: 300;
+}
