@@ -24,6 +24,10 @@ ol, ul {
     background-color: #19A2AE;
 }
 
+.user-profile {
+  background-color: #FFF;
+}
+
 .profile-stats {
     font-weight: 700;
 }
