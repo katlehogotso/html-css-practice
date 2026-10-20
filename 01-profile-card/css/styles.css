@@ -9,14 +9,19 @@
   padding: 0;
 }
 
-/* Add font family style */
+/* Add font family style and background color for the page */
 body {
   font-family: 'Kumbh Sans', sans-serif;
+  background-color: #19A2AE;
 }
 
 /* Remove list markers globally (Optional) */
 ol, ul {
   list-style: none;
+}
+
+.profile-header {
+    background-color: #19A2AE;
 }
 
 .profile-stats {
