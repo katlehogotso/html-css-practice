@@ -3,10 +3,11 @@
   box-sizing: border-box;
 }
 
-/* Remove default margins and padding from everything */
+/* Remove default margins and padding from everything and add font family style*/
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Kumbh Sans', sans-serif;
 }
 
 /* Remove list markers globally (Optional) */
