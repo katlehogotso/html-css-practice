@@ -3,10 +3,14 @@
   box-sizing: border-box;
 }
 
-/* Remove default margins and padding from everything and add font family style*/
+/* Remove default margins and padding from everything */
 * {
   margin: 0;
   padding: 0;
+}
+
+/* Add font family style */
+body {
   font-family: 'Kumbh Sans', sans-serif;
 }
 
