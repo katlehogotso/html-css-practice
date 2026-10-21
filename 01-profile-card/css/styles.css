@@ -45,4 +45,19 @@ h1, .profile-stats {
 
 .city {
   font-size: 16px;
+  margin-bottom: 26px;
+}
+
+.profile-pic {
+  border-radius: 100px;
+  margin-top: -48px;
+  margin-bottom: 26px;
+}
+
+.profile-stats-container > div {
+  padding: 14px;
+}
+
+section {
+  border-top: 1px solid #E9EAED;
 }
