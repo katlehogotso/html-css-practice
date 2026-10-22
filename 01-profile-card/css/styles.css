@@ -67,3 +67,8 @@ h1, .profile-stats {
 section {
   border-top: 1px solid #E9EAED;
 }
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
