@@ -1,3 +1,11 @@
+/* Change root element font size, as 16px is not easy to work with and 10px is easy to work with */
+/* So the mathematics behind this 62.5% * 16px = 10px, so 1rem = 10px now*/
+/* So if we wanted 24px on an element we want it to be responsive that will be 24px/10px = 2.4rem */
+/* Working with a base of 10px for rem units makes it simpler when thinking about sizing elements */
+html {
+  font-size: 62.5%;
+}
+
 /* Reset box-sizing globally for predictable sizing (Total width or height of an element as a whole) */
 *, *::before, *::after {
   box-sizing: border-box;
@@ -42,16 +50,16 @@ ol, ul {
 }
 
 h1, .profile-stats {
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 
 .profile-stats-label {
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 .city {
-  font-size: 16px;
-  margin-bottom: 26px;
+  font-size: 1.6rem;
+  margin-bottom: 2.6rem;
 }
 
 .profile-header {
@@ -60,16 +68,16 @@ h1, .profile-stats {
 }
 
 .profile-pic {
-  border-radius: 100px;
-  margin-top: -48px;
-  margin-bottom: 26px;
+  border-radius: 10rem;
+  margin-top: -4.8rem;
+  margin-bottom: 2.6rem;
   /* In this order for width and max-width (Cascade)*/
   width: 100%;
   max-width: 96px;
 }
 
 .profile-stats-container > div {
-  padding: 14px;
+  padding: 1.4rem;
 }
 
 section {
