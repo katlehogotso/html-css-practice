@@ -40,9 +40,24 @@ ol, ul {
   align-items: center;
   background-color: #FFF;
   width: fit-content;
-  margin: 10% auto;
+  margin-top: -380px;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 16px;
   overflow: hidden;
+  position: relative; /* Required for z-index to work */
+  z-index: 10;        /* Higher number brings it to the front */
+}
+
+.top-img {
+  width: 650px;
+  margin-top: -150px;
+  margin-left: -100px;
+}
+
+.bottom-img {
+  width: 650px;
+  margin: -450px 750px;
 }
 
 .profile-stats {
