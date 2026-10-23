@@ -41,6 +41,8 @@ ol, ul {
   background-color: #FFF;
   width: fit-content;
   margin: 10% auto;
+  border-radius: 16px;
+  overflow: hidden;
 }
 
 .profile-stats {
